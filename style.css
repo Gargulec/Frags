@@ -1,0 +1,62 @@
+body
+{
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #000000 0%, #160000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#160000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000 0%,#160000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000 0%,#160000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000 0%,#160000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #000000 0%,#160000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#160000',GradientType=0 ); /* IE6-9 */
+}
+@font-face {
+    font-family: 'csgo';
+    src: url('csgo.eot');
+    src: url('csgo.eot?#iefix') format('embedded-opentype'),
+         url('csgo.woff2') format('woff2'),
+         url('csgo.woff') format('woff'),
+         url('csgo.ttf') format('truetype'),
+         url('csgo.svg#counter-strikeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#header
+{
+	float: left;
+	width: 640px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -320px;
+}
+#content
+{
+	float: left;
+	width: 80%;
+	position: absolute;
+	top: 100px;
+	margin-left: 10%;
+	min-height: 600px;
+	font-family: csgo;
+	font-size: 50;
+	color: #fff;
+}
+#players
+{
+	margin-top: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+}
+table
+{
+	 border: 1px solid white;
+	 color: white;
+	 font-size: 30;
+	 padding: 5px;
+}
+#lol
+{
+	width: 200px;
+}
